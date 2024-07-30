@@ -32,6 +32,11 @@ jobs:
 
 
 
+          - name: check os-release
+             run: cat /etc/os-release 
+
+
+
 
           
 
