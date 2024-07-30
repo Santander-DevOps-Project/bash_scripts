@@ -28,6 +28,8 @@ jobs:
       - name: Run a multi-line script
         run: ./my_commands.sh
           echo Add other actions to build,
-          echo test, and deploy your project.
-name: check os-release :
-run: cat /etc/os-release
+          echo test, and deploy your project
+
+
+          - name: check os-release:
+          run: cat /etc/os-release 
