@@ -31,5 +31,12 @@ jobs:
           echo test, and deploy your project
 
 
-          - name: check os-release:
-          run: cat /etc/os-release 
+
+
+          
+
+
+          
+
+
+      
